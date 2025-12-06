@@ -1,49 +1,36 @@
-🛒 E-commerce Website
-✨ Overview
 
-A modern E-commerce Web Application built with Spring Boot (Backend) and HTML/CSS/JS (Frontend).
-Users can browse products, add items to cart, and place orders.
+# 🛒 E-commerce Website
 
-🚀 Features
+A **full-stack Ecommerce app** using **Spring Boot, JPA, MySQL & Bootstrap**. Users can browse products, manage cart, and place orders.  
 
-🧑‍🤝‍🧑 User Registration (Login page coming soon)
+---
 
-🛍️ Browse products with images
+## 🚀 Features
+- 👤 User Registration & Login (backend ready)  
+- 🛒 Browse & add products to cart  
+- 📝 Place orders & view order history  
+- ➕ Admin can add/delete products  
 
-🛒 Add products to cart and place orders
+---
 
-🛠️ Admin product management (Add / Delete / Update products)
+## 🛠️ Tech Stack
+- **Backend:** Java, Spring Boot, JPA  
+- **Frontend:** HTML, CSS, JS, Bootstrap  
+- **Database:** MySQL  
+- **Build Tool:** Maven  
 
-📜 View order history
+---
 
-📁 Folder Structure
-Ecomm/         → Backend (Spring Boot)
-EcommUI/       → Frontend (HTML/CSS/JS)
-README.md      → Project Documentation
-
-💻 How to Run
-
-Clone the repository:
-
+## ⚙️ Setup
+```bash
 git clone https://github.com/Sakshi1169/ecommerce-website.git
+cd ecommerce-website
+./mvnw spring-boot:run
+Open EcommUI/index.html in browser
 
-
-Open backend (Ecomm) in IntelliJ/Eclipse and run Spring Boot application.
-
-Open frontend (EcommUI) in browser to view products and cart.
-
-🖼️ Screenshots
-
-(Add screenshots inside EcommUI/screenshots/ folder and link here)
-
-![Home Page](EcommUI/screenshots/home.png)
-![Product Page](EcommUI/screenshots/product.png)
-![Cart Page](EcommUI/screenshots/cart.png)
-
-🔧 Technologies Used
-
-Backend: Spring Boot, Java, Spring Data JPA
-
-Frontend: HTML, CSS, JavaScript, Bootstrap
-
-Database: MySQL
+📂 Structure
+lua
+Copy code
+Ecomm/      --> Backend
+EcommUI/    --> Frontend
+``
