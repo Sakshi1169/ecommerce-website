@@ -29,8 +29,7 @@ cd ecommerce-website
 Open EcommUI/index.html in browser
 
 📂 Structure
-lua
-Copy code
+
 Ecomm/      --> Backend
 EcommUI/    --> Frontend
 ``
